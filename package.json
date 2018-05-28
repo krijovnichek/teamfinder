@@ -1,0 +1,19 @@
+{
+  "name": "teamfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krijovnichek/teamfinder.git"
+  },
+  "author": "Ruslan Tyukaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krijovnichek/teamfinder/issues"
+  },
+  "homepage": "https://github.com/krijovnichek/teamfinder#readme"
+}
