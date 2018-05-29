@@ -5,6 +5,7 @@
 font-family: 'Open Sans', sans-serif;
 */
 :root{
+		--color-grey:#EEE;
 		--color-red: #D62332;
 		--color-white: #FFF;
 		--color-dark: #11365A;
@@ -18,38 +19,97 @@ html {
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
 	margin: 0;
-	padding: 0 15px;
+	padding: 0;
 	display: flex;
 	flex-direction: column;
 	flex: auto;
 }
 
-h1 {
-	font-family: 'Handlee', cursive;
-	color: var(--color-dark);
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .header {
 	width: 100%;
+	height: 70px;
 	min-width: 430px;
-	margin: 0 30px;
-	padding: 30px 0 10px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
+	margin: 0;
+	padding: 10px 0 10px;
+	background-color: var(--color-grey);
 	display: flex;
-	-webkit-flex-wrap: wrap;
-	-moz-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 	box-sizing: border-box;
+}
+
+.logo {
+
+	font-family: 'Handlee', cursive;
+	color: var(--color-dark);
+	margin-left: 50px;
+	cursor: pointer;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	margin-right: 30px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.menu-item {
+	width: auto;
+	min-width: 60px;  /* Or whatever */
+	height: 50px;
+	padding: 0 10px; /* Or whatever */
+	margin: auto;
+	color: var(--color-dark);
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+
+
+.menu-item:hover {
+	/*background-color: var(--color-yellow);*/
+	border: 1px solid var(--color-yellow);
+	/*color: var(--color-yellow);*/
+}
+
+.account {
+	color: var(--color-dark);
+	/*font-weight: bold;*/
+	margin-left: 5px;
+	margin-right: 50px;
+	display: flex;
+	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+.upic {
+	display: flex;
+	margin-left: auto;
+	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	cursor: pointer;
+  	/*height: 50px;*/
+  	/*width: 50px;*/
 }
 
 .main {
@@ -60,7 +120,7 @@ h1 {
 	box-sizing: border-box;
 }
 .footer {
-	background: var(--color-light);
+	background: var(--color-white);
 	width: 100%;
 	min-width: 430px;
 	color: #eee;
