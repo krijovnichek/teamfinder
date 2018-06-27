@@ -4,7 +4,8 @@
     --green: #20efb4;
     --purple: #673bc0;
     --black: #5e6372;
-    --grey: #a7acbc; 
+    --grey: #a7acbc;
+
 }
 
 
@@ -41,7 +42,7 @@ header {
 	/*opacity: .9;*/
 	display: flex;
 	justify-content: space-between;	
-	background-color: #fff;
+	background-color: rgba(255,255,255,.87);
 }
 
 nav {
@@ -88,7 +89,7 @@ nav a {
 	font-weight: lighter;
 	font-size: 1.6em;
 	color: #fff;
-	color: var(--purple);
+	color: var(--black);
 	text-decoration: none;
 	text-align: center;
 }
